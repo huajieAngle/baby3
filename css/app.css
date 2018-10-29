@@ -1,0 +1,247 @@
+body{
+		font-family: 'arial', sans-serif;
+}
+.am-g {
+  text-align: center;
+  line-height: 50px;
+  height: 50px;
+}
+.le{
+	text-align: left;
+}
+.ri{
+	text-align: right;
+}
+.leri{color: #fe95ae;}
+a{
+	text-decoration: none;
+	color: #fe95ae;
+};
+.title{
+	#grad1 {
+    height: 200px;
+    background: -webkit-linear-gradient(red, blue); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(red, blue); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(red, blue); /* Firefox 3.6 - 15 */
+    background: linear-gradient(red, blue); /* 标准的语法（必须放在最后） */
+}
+	font-size: 16px;
+	font-weight: bold;
+}
+.bj1{
+	width: 100%;
+	position:absolute ;
+	z-index: -1;
+	top:50px
+}
+.bj2{
+	width: 100%;
+	position:absolute ;
+	z-index: -1;
+}
+.bj4{
+	width: 100%;
+	position:absolute ;
+	z-index: -1;
+	top:50px
+}
+.content{
+	/*background-color: yellowgreen;*/
+	margin-top: 38%;
+	margin-left: 10%;
+	width: 80%;
+}
+.content1{
+	/*background-color: yellowgreen;*/
+	margin-top: 70%;
+	margin-left: 15%;
+	width: 70%;
+}
+label{
+	font-weight: normal;
+	color: #060c4b;
+}
+.nextButton{
+	width: 90%;
+    margin-left: 4%;
+    background-color: #fa6c8e;
+    color: #fff;margin-top:4%;
+    padding: 12px;"
+}
+.search>input::-webkit-input-placeholder {
+       /* placeholder颜色  */
+       color: #aab2bd;
+       /* placeholder字体大小  */
+       font-size: 14px;
+    }
+    /*九宫格*/
+   .boxes {
+  width: 100%;
+}
+.search0>input::-webkit-input-placeholder {
+       /* placeholder颜色  */
+       color: #aab2bd;
+       /* placeholder字体大小  */
+       font-size: 14px;
+    }
+    .search0{
+    	margin-bottom: 8%;
+    }
+    /*九宫格*/
+   .boxes {
+  width: 100%;
+}
+.boxes .box {
+  height: 100%;
+  color: #eee;
+  line-height: 100px;
+  text-align: center;
+  font-weight: bold;
+  transition: all .2s ease;
+}
+
+.boxes .box:hover {
+  font-size: 250%;
+  transform: rotate(360deg);
+}
+
+.box-1 {
+  border-bottom: 1px solid #f9f7f7;
+  border-right: 1px solid #f9f7f7;
+}
+
+.box-2 {
+    border-bottom: 1px solid #f9f7f7;
+    border-right: 1px solid #f9f7f7;
+}
+
+.box-3 {
+    border-bottom: 1px solid #eee;
+}
+
+.box-4 {
+    border-bottom: 1px solid #f9f7f7;
+    border-right: 1px solid #f9f7f7;
+}
+
+.box-5 {
+     border-bottom: 1px solid #f9f7f7;
+    border-right: 1px solid #f9f7f7;
+}
+
+.box-6 {
+    border-bottom: 1px solid #eee;
+}
+.box-7 {
+    border-right: 1px solid #f9f7f7;
+}.box-8 {
+    border-right: 1px solid #f9f7f7;
+}
+	/*九宫格*/
+.fan{
+	position: absolute;
+    width: 40%;
+    top: -14%;
+    left: 10%;
+}
+ul,li{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.xuanxiang>ul>li{
+	float: left;
+	line-height: 40px;
+	height: 40px;
+	background-color: #fa6c8e;
+	font-size: 14px;
+	padding: 0 15px;
+	color: #fff;
+	border-top-left-radius: 28px;
+	border-bottom-right-radius: 28px;
+	position: relative;
+	margin: 6px;
+}
+.xuanxiang1>p{
+	float: left;
+	line-height: 40px;
+	height: 40px;
+	background-color: #fa6c8e;
+	font-size: 16px;
+	padding: 0 15px;
+	color: #fff;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	position: relative;
+	margin: 6px;
+}
+.close{
+	position: absolute;
+    top: -10px;
+    font-size: 24px;
+    right: 4px;
+}
+.foot{
+	position: fixed;
+	height: 50px;
+	line-height: 50px;
+	background-color: #fa6c8e;
+	bottom: 0;
+	width: 100%;
+	color: #fff;
+	text-align: center;
+}
+.le1{
+	margin-top: 10px;
+	background-color: #fef5f8;
+	height: 60px;
+	border: 1px solid #f3d6e5;
+}
+.le1 span{
+	font-size: 12px;
+	color: #fb95ac;
+}
+.title1{
+	margin-top: 10px;
+	background-color: #fef5f8;
+	height: 60px;
+	border-top: 1px solid #f3d6e5;
+	border-bottom: 1px solid #f3d6e5;
+	border-right:  1px solid #f3d6e5;
+}
+.title1 span{
+	font-size: 12px;
+	color: #fb95ac;
+}
+.ri1{
+	margin-top: 10px;
+	background-color: #fef5f8;
+	height: 60px;
+	border-top: 1px solid #f3d6e5;
+	border-bottom: 1px solid #f3d6e5;
+	border-right:  1px solid #f3d6e5;
+}
+.ri1 span{
+	font-size: 12px;
+	color: #fb95ac;
+}
+.footer{
+	background-color: #f6f5f5;
+	height: 40px;
+	width: 92%;
+	line-height: 40px;
+}
+.pingjiaText{
+	font-size: 14px;
+	color: #c91c0e;
+	text-align: right;
+}
+.radioP:last-child{
+	margin-top: 54px;
+	margin-bottom: 20px;
+}
+ /*input[type="radio"] {
+            width: 20px;
+            height: 20px;
+        }*/
